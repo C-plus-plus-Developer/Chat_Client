@@ -87,6 +87,7 @@ void ChatClient::userPanel(){
             viewPublicMessages();
         }
         else if (choice == "5") {
+            sendCommand("5");
             running = false;
         }
         else{
